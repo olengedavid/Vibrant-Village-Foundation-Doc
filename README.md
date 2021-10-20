@@ -17,7 +17,7 @@ In kenya, Vibrant Village Foundation works with a community based in Western who
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com) #screen recording of how the app works
+[Live Demo Link](working-of-the-system.gif) #screen recording of how the app works
 
 
 ## Getting Started

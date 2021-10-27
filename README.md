@@ -78,9 +78,37 @@ The farmer is asked a series of questions that they need to answer. All these da
 |4     |Their phone number|
 |
 
+
+
 A farmer who initiates registration process is automatically at `step0` of registration. When they resume the process, question for `step1` will be asked. This means that the questions we ask the farmer is always  a step a head of the step we have in the database.
 
+**KOBO**
 
+[KoBoToolbox](https://support.kobotoolbox.org/new_form.html) is a free and open source software that is used for field data collection. The field officers use the kobo forms to collect farmer data which are later transmitted to Vibrant repo via a webhook.
+
+The data can be collected while the devices are offline and be transmitted once the device get connected to the internet.
+
+**koBo farmer registration form format**
+- farmer name as it appearson the id card.
+- farmer year of birth.
+- national id.
+- farmer's nearest school.
+- phone number.
+- sublocation.
+- please take gps of home if possible .
+- farmer gender.
+- deviceId.
+- group leader Id.
+- nok name.
+- nok id.
+- nok gender.
+- realationship 
+- nok year of birth.
+
+
+The form ensure data integrity rules are adhered to which reduces errors leading to better quality data.
+
+**WEB**
 
 Registered farmers can be divided into stations based on locality and groupes according to  shared interest. A farmer's next of kin details are also captured to determine inheritance rights if a person dies. Farmers index page can display all farmers on variation of options, such as : qualified, non-qualified, sales group, groupless and registered farmers.
 

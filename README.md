@@ -59,6 +59,28 @@ Use these credentials to login:
 
 ### Usage
 **Farmer registration**
+Farmer can be registered through the following channels:
+- Kobo.
+- SMS.
+- USSD.
+- Web.
+
+**SMS**
+The farmer is asked a series of questions that they need to answer. All these data is temporarily stored in database table which is then transfered to the main farmers table upon completion.
+
+**Technical steps**
+
+| Step | Description|
+| -----| -----------|
+|1     |Welcome farmer and ask  for the farmer national id|
+|2     |Ask for the names|
+|3     |The year of birth|
+|4     |Their phone number|
+|
+
+A farmer who initiates registration process is automatically at `step0` of registration. When they resume the process, question for `step1` will be asked. This means that the questions we ask the farmer is always  a step a head of the step we have in the database.
+
+
 
 Registered farmers can be divided into stations based on locality and groupes according to  shared interest. A farmer's next of kin details are also captured to determine inheritance rights if a person dies. Farmers index page can display all farmers on variation of options, such as : qualified, non-qualified, sales group, groupless and registered farmers.
 

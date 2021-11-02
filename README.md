@@ -138,6 +138,35 @@ Role management or user access control is implemented in two ways: Through plugs
 
 ![User role checkbox](user_roles.png)
 
+## ORDERS
+These are the individual farm commodities that a registered farmer can order and pay back the due amount within a stepulated time. The available order types include:
+- Package.
+- Individual Items.
+- Top up.
+- Short rain.
+
+Order creation process through the web i.e vibrant application inolves a serries of steps.
+
+|step|Description|
+|----|-----------|
+|1   |Choose a registered active farmer|
+|2   |Select the type of order|
+|3   |Add discount(optional)  |
+|4   |Click creat order|
+
+The different type of orders have different ways of creating them.
+**Package type**
+
+|step| Description|
+|----|------------|
+|1   |Select type of order(package)|
+|2   |Select a package(seed and other packages)|
+|3   |Seed packages(1 seed, 2 seed e.t.c)|
+|4   |Select main seed|
+|5   |Select extra seed|
+|6   |back to step three of order creation|
+
+For the remaining order types you are presented with a search bar that populates all the available order types and option to specify the number of bags needed. The search is matched according to the names.
 
 * Super admin
     - 

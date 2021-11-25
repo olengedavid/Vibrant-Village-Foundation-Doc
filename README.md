@@ -183,6 +183,18 @@ Farmers make payments through mpesa in a given account number. The mpesa details
 If the farmer pay until it exceeds the order amount, that payment is labelled as excess. It is kept within the system until the farmer request for a refund. The refund is recorded and approved after which it is manually sent back to the farmer.
 
 The dashboard offers good options to view all, order, failed, excess and  refunded payments. Additionaly loan repayment report for a specific station can be listed.
+
+## DEADLINES
+
+For computerized systems these are points in time, by which an objective must be accomplished, after which the functionality to perform that task is disabled. As of this time, vibrant has three different deadlines that can be set, namely seed verification, credit qualification and individual order.
+
+## DEVICES
+
+These are electronic gadgets in the form of mobile phones or tablets assigned to vibrant users. Due to the dispersed and dynamic nature of customers and work, their was a need to localize services such as farmer registration to the actual location of the farmer, where surveys and geolaction of the farm can be done. Most of these actions are performed by field officers who get assigned these devices. TO register or acquire a device, the device ID and user must be provided, it must also be indicated if the device is being used or not.
+
+## REPORTS
+
+
 * Super admin
     - 
 * Admin

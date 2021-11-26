@@ -194,6 +194,10 @@ These are electronic gadgets in the form of mobile phones or tablets assigned to
 
 ## REPORTS
 
+These are statitistical summary on specific business parameters that can provide important details to help design future forcasts, marketing plans, guide budgeting plans and improve decision making. Vibrant has quartely reports which comprise of sales and credit reports,top up summary entails reports for different order items based on active, inactive and delivered status.
+
+## SEASONS
+
 
 * Super admin
     - 

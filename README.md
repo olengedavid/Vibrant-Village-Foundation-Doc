@@ -197,6 +197,7 @@ These are electronic gadgets in the form of mobile phones or tablets assigned to
 These are statitistical summary on specific business parameters that can provide important details to help design future forcasts, marketing plans, guide budgeting plans and improve decision making. Vibrant has quartely reports which comprise of sales and credit reports,top up summary entails reports for different order items based on active, inactive and delivered status.
 
 ## SEASONS
+Vibrant organization operate on a time interval of seasons when it comes to providing orders to farmers. Farmers have to request for orders before the start of the season, after which they are given at the onset of the season. Payment of these orders is expected to be completed before the end of the season, otherwise the farmer is labelled as a defaulter. 
 
 
 * Super admin

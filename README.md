@@ -59,6 +59,7 @@ Use these credentials to login:
 
 ### Usage
 **Farmer registration**
+
 Farmer can be registered through the following channels:
 - Kobo.
 - SMS.
@@ -124,12 +125,14 @@ Stations are formed from farmers living within demacated geograohical area, head
 ![Station registration](vvf_station-_reg.png)
 
 **Next of Kin Registration**
+
 In Kenya next of kin is a person's closest living relative who can be contacted incase of any enventuality. This person can be registered during farmer registration on the `farmer registration` form, or added to an existing farmer on the `farmer edit` form. Different types of relationship that exist between a farmer and NOK are captured on a `Nok Relationships` form and populated during farmer registration. Once registered all NOks can be viewed on the Nok of kins tab.
 
 ![NOK registration](NOK.png)
 
 **System Users**
-These are people with their own user name and password granted access to perform an organization tasks within a system. Vibrant have five levels of users, super admin, admin, field officer and intern, with super admin having the highest preveleges. Below is the from used to create users.
+
+These are people with their own user name and password granted access to perform an organization tasks within a system. Vibrant have five levels of users, super admin, admin, field officer and intern, with super admin having the highest preveleges. Below is the form used to create users.
 
 ![User registration](user.png)
 
@@ -138,7 +141,42 @@ Role management or user access control is implemented in two ways: Through plugs
 
 ![User role checkbox](user_roles.png)
 
+## ORDERS
+These are the individual farm commodities that a registered farmer can order and pay back the due amount within a stepulated time. The available order types include:
+- Package.
+- Individual Items.
+- Top up.
+- Short rain.
 
+Order creation process through the web i.e vibrant application inolves a serries of steps.
+
+|step|Description|
+|----|-----------|
+|1   |Choose a registered active farmer|
+|2   |Select the type of order|
+|3   |Add discount(optional)  |
+|4   |Click creat order|
+
+The different type of orders have different ways of creating them.
+**Package type**
+
+|step| Description|
+|----|------------|
+|1   |Select type of order(package)|
+|2   |Select a package(seed and other packages)|
+|3   |Seed packages(1 seed, 2 seed e.t.c)|
+|4   |Select main seed|
+|5   |Select extra seed|
+|6   |back to step three of order creation|
+
+For the remaining order types you are presented with a search bar that populates all the available order types and option to specify the number of bags needed. The search is matched according to the names.
+
+**Package Type and Products**
+
+
+Products are individual items which can be ordered. They are specified into different categories: maize seed, other fertilizer, other items, planting fertilizer, and top dressing fertilizer. On the other hand packages are bundles of these indidivual products.e.g one seed package contains: 1 seed, 1 Dap(10)kg, 2 Can(10)kg, Benevolent Fund, Sukuma(10)g.   
+
+## PAYMENTS
 * Super admin
     - 
 * Admin
@@ -156,19 +194,35 @@ Role management or user access control is implemented in two ways: Through plugs
 
 ## Authors
 
-👤 **Author1**
+👤 **FRANK MIDIGO**
+
+- Github: [@githubhandle](https://github.com/MidigoF)
+- Twitter: [@twitterhandle](https://twitter.com/midigo_frank)
+- Linkedin: [linkedin](https://www.linkedin.com/in/midigo-f-023450123/)
+
+👤 **POLLET OBUYA**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/P_Obuya)
+- Linkedin: [linkedin](https://www.linkedin.com/in/pollet-obuya-664436127/)
 
-👤 **Author2**
+👤 **SIGU MAGWA**
+- Github: [@githubhandle](https://github.com/sigu)
+- Twitter: [@twitterhandle](https://twitter.com/s_igu)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sigu/)
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 ****
 
 ## 🤝 Contributing
+
+We use [semantic version](https://semver.org/)to keep track of the application builds.
+
+
+## Issue tracking
+We create user stories in Jira and link them up on Trello. Check vibrant [Trello board](https://trello.com/b/8dQkIYUt/vibrant-tasks) indicating how we track issues from `To Do` to `staging`. 
+
+
+
 
 Contributions, issues and feature requests are welcome!
 

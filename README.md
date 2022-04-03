@@ -177,6 +177,29 @@ For the remaining order types you are presented with a search bar that populates
 Products are individual items which can be ordered. They are specified into different categories: maize seed, other fertilizer, other items, planting fertilizer, and top dressing fertilizer. On the other hand packages are bundles of these indidivual products.e.g one seed package contains: 1 seed, 1 Dap(10)kg, 2 Can(10)kg, Benevolent Fund, Sukuma(10)g.   
 
 ## PAYMENTS
+
+Farmers make payments through mpesa in a given account number. The mpesa details are extracted into a csv format and feed into the system to be processed and pay for the farmer order, in accordance to the business logic. The payments can be in different status: success, flagged, failed, new and in progress. Once the payment has paid for the inteded order, a message is sent back to the farmer, describing what he/she has paid for, amount, the due balance and the percentage paid.
+
+If the farmer pay until it exceeds the order amount, that payment is labelled as excess. It is kept within the system until the farmer request for a refund. The refund is recorded and approved after which it is manually sent back to the farmer.
+
+The dashboard offers good options to view all, order, failed, excess and  refunded payments. Additionaly loan repayment report for a specific station can be listed.
+
+## DEADLINES
+
+For computerized systems these are points in time, by which an objective must be accomplished, after which the functionality to perform that task is disabled. As of this time, vibrant has three different deadlines that can be set, namely seed verification, credit qualification and individual order.
+
+## DEVICES
+
+These are electronic gadgets in the form of mobile phones or tablets assigned to vibrant users. Due to the dispersed and dynamic nature of customers and work, their was a need to localize services such as farmer registration to the actual location of the farmer, where surveys and geolaction of the farm can be done. Most of these actions are performed by field officers who get assigned these devices. TO register or acquire a device, the device ID and user must be provided, it must also be indicated if the device is being used or not.
+
+## REPORTS
+
+These are statitistical summary on specific business parameters that can provide important details to help design future forcasts, marketing plans, guide budgeting plans and improve decision making. Vibrant has quartely reports which comprise of sales and credit reports,top up summary entails reports for different order items based on active, inactive and delivered status.
+
+## SEASONS
+Vibrant organization operate on a time interval of seasons when it comes to providing orders to farmers. Farmers have to request for orders before the start of the season, after which they are given at the onset of the season. Payment of these orders is expected to be completed before the end of the season, otherwise the farmer is labelled as a defaulter. 
+
+
 * Super admin
     - 
 * Admin
@@ -194,6 +217,14 @@ Products are individual items which can be ordered. They are specified into diff
 
 ## Authors
 
+
+
+👤 ****
+
+## 🤝 Contributing
+
+We use [semantic version](https://semver.org/)to keep track of the application builds.
+
 👤 **FRANK MIDIGO**
 
 - Github: [@githubhandle](https://github.com/MidigoF)
@@ -210,14 +241,6 @@ Products are individual items which can be ordered. They are specified into diff
 - Github: [@githubhandle](https://github.com/sigu)
 - Twitter: [@twitterhandle](https://twitter.com/s_igu)
 - Linkedin: [linkedin](https://www.linkedin.com/in/sigu/)
-
-👤 ****
-
-## 🤝 Contributing
-
-We use [semantic version](https://semver.org/)to keep track of the application builds.
-
-
 ## Issue tracking
 We create user stories in Jira and link them up on Trello. Check vibrant [Trello board](https://trello.com/b/8dQkIYUt/vibrant-tasks) indicating how we track issues from `To Do` to `staging`. 
 

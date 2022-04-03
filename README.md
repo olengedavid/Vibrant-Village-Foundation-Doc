@@ -155,6 +155,7 @@ Order creation process through the web i.e vibrant application inolves a serries
 |4   |Click creat order|
 
 The different type of orders have different ways of creating them.
+
 **Package type**
 
 |step| Description|
@@ -209,6 +210,15 @@ These are statitistical summary on specific business parameters that can provide
 ## SEASONS
 Vibrant organization operate on a time interval of seasons when it comes to providing orders to farmers. Farmers have to request for orders before the start of the season, after which they are given at the onset of the season. Payment of these orders is expected to be completed before the end of the season, otherwise the farmer is labelled as a defaulter. 
 
+When a season is closed these are the actions that happen.
+- The current status of farmers will be recorded for the season.
+- The status of the defaulting farmer will remain unchaged.
+- Active farmers will be marked as inactive for the next season.
+- Defaulting farmers recive a particular message.
+
+## DELIVERIES
+
+At the onset of every farming season farmers who had ordered for products and have fully satisfied the set conditions in terms of payment get their products delivered to them. In the system the delivery can be done at two levels. The first is done at a single order show page where an authorized user clicks the `deliver` button, the second one involves capturing the required details of all the orders to be delivered in csv file which is later uploaded into the system for delivery.
 
 * Super admin
     - 
